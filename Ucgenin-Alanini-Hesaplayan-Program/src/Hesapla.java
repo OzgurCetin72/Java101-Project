@@ -20,11 +20,11 @@ public class Hesapla {
 		System.out.println(" c Kenar uzunlugunu giriniz : ");
 		c=input.nextInt();
 		
-        //Ucgenin cevresi  = 2u     u=(a+b+c)/2;
+                //Ucgenin cevresi  = 2u     u=(a+b+c)/2;
 		
 		u=(a+b+c)/2;
 		
-		//Alan= karakök içinde u*(u-a)*(u-b)*(u-c) 
+		//Alan= karakÃ¶k iÃ§inde u*(u-a)*(u-b)*(u-c) 
 		
 		alan=Math.sqrt( u*(u-a)*(u-b)*(u-c) );
 		
