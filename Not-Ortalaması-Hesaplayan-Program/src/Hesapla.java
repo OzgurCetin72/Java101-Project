@@ -35,7 +35,7 @@ public class Hesapla {
 		
 		
 		
-		System.out.println((sonuc>60) ? "Ortalam˝n˝z " + sonuc + " S˝n˝f˝ GeÁtiniz..": "Ortalam˝n˝z " + sonuc + " S˝n˝fta Kald˝n˝z..");
+		System.out.println((sonuc>60) ? "Ortalaminiz " + sonuc + " Sinifi Ge√ßtiniz..": "Ortalaminiz " + sonuc + " Sinifta Kaldiniz..");
 		
 		
 		
