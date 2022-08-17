@@ -17,13 +17,13 @@ public class Giris {
 		
 		if ((userName.equals("patika")) && (password.equals("java123"))) {
 			
-			System.out.println(" Giris Yaptýnýz.. ");
+			System.out.println(" Giris Yaptiniz.. ");
 			
 		}else {
 			
 			System.out.println(" Bilgileriniz Yanlis.. ");
 			
-			System.out.println("Sifrenizi degistirmek ister misiniz? (evet/hayýr) ");
+			System.out.println("Sifrenizi degistirmek ister misiniz? (evet/hayir) ");
 			String cevap=input.nextLine();
 			
 			if (cevap.equals("evet")) {
@@ -37,16 +37,16 @@ public class Giris {
 					
 				}else {
 					 
-					System.out.println("Sifre olusturulamadý, lutfen baska sifre giriniz..");
+					System.out.println("Sifre olusturulamadi, lutfen baska sifre giriniz..");
 				}
 				
 				
-			}else if (cevap.equals("hayýr")) {
-				
-				System.out.println(" iyi günler dileriz.. ");
+			}else if (cevap.equals("hayir")) {
+			
+				System.out.println(" iyi gÃ¼nler dileriz.. ");
 				
 			}else {
-				System.out.println(" Hatalý cevap.. ");
+				System.out.println(" Hatali cevap.. ");
 			}
 			
 		}
