@@ -10,14 +10,14 @@ public class Hesapla {
 		Scanner input = new Scanner(System.in);
 		
 		
-		 System.out.println(" Ýlk sayiyi giriniz : ");
+		 System.out.println(" Ilk sayiyi giriniz : ");
 		 sayi1=input.nextInt();
 		 
-		 System.out.println(" Ýkinci sayiyi giriniz : ");
+		 System.out.println(" Ikinci sayiyi giriniz : ");
 		 sayi2=input.nextInt();
 		 
-		 System.out.println(" Ýsleminizi seciniz : ");
-		 System.out.println("1-Toplama\n2-Cýkarma\n3-Carpma\n4-Bolme ");
+		 System.out.println(" Isleminizi seciniz : ");
+		 System.out.println("1-Toplama\n2-CÃ½karma\n3-Carpma\n4-Bolme ");
 		 islem=input.nextInt();
 		 
 		 switch (islem) {
