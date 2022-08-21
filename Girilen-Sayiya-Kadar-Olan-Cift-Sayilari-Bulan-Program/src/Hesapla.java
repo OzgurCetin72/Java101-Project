@@ -9,11 +9,11 @@ public class Hesapla {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("lütfen bir sayiyi giriniz : ");
+		System.out.println("lÃ¼tfen bir sayiyi giriniz : ");
 		int sayi =input.nextInt();
 	
 	
-		System.out.println(" 3 ve 4'e tam bölünen sayılar : ");
+		System.out.println(" 3 ve 4'e tam bolunen sayilar : ");
 		
 		for (int i = 0; i <= sayi; i++) {
 		
@@ -27,7 +27,7 @@ public class Hesapla {
 	}
 	
 	sonuc=bolunen/bolum;
-	System.out.println(" 3 ve 4'e tam bölünen sayıların ortalaması : " + sonuc);
+	System.out.println(" 3 ve 4'e tam bolunen sayilarin ortalamasi : " + sonuc);
 	
 	
 	}
